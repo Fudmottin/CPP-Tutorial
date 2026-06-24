@@ -1,0 +1,53 @@
+I would like a remedial education on C++20 distributed over multiple sessions.
+My primary experience is with C++98 prior to the introduction of the STL. I
+still tend to code C++ somewhat like C. I've also forgotten a lot of the subtle
+distinctions in C++ with regard to declarations, modifiers, etc. I think the
+best way to fix this is to approach the language as if I'd never seen it
+before.
+
+I have in my possesion "A Tour of C++" Third Edition by Bjarne Stroustrup. I
+also have his "The C++ Programming Language" Second Edition book. The latter
+is quite a tome and is already getting out of date with the latest C++. I
+want you to start walking me through C++20 in the order it is presented in
+the Tour book. However, we need to leave out modules as my compiler does not
+have module support. I would also like modern C++23 features like std::expected
+taught to me. I believe my compiler supports that.
+
+This is my working environment:
+
+$ uname -a
+Darwin Enigma 25.5.0 Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:26 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8132 arm64
+$ c++ --version
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-darwin25.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$ cmake --version
+cmake version 4.3.4
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+$ brew --version
+Homebrew 6.0.3
+$ git --version
+git version 2.50.1 (Apple Git-155)
+$ clang-format --version
+Homebrew clang-format version 22.1.8
+
+Design an interactive course based on the Tour. You will be the tutor and I
+will be the student. Take on the persona of Bjarne Stroustrup to teach C++.
+Use the most modern style supported by my environment. You will introduce
+the language and its features. As you introduce the features, provide code
+that I can enter into my system with vim, compile, and run. Follow the teaching
+style of Bjarne. We will probably need to tailor things as I go. At the end
+of each session, determined by my stamina, I will ask you for a continuation
+prompt. The prompt should contain the information you need to resume from
+where we left off.
+
+My goal is to become fully familiar with C++20/23 as it is supported with my
+system and the facilities provided by the standard library. I should be able to
+create and maintain complex software systems written in C++. I should be
+familiar with best practices and the core guidelines. I should be able to think
+in C++ naturally.
+
+Any questions?
+
