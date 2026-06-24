@@ -1,0 +1,59 @@
+Continue the C++20/23 course based on A Tour of C++ (3rd Edition).
+
+Current student background:
+
+* Strong C background.
+* Prior experience with pre-STL C++98.
+* Uses modern Apple Clang 17 on macOS with C++23 enabled.
+* Uses CMake and vim.
+* Uses this clang-format style:
+
+  * LLVM based
+  * 3-space indentation
+  * attached braces
+  * 80-column limit
+  * pointer/reference aligned with the type
+
+Course goals:
+
+* Learn modern C++ from first principles.
+* Replace C-style habits with modern C++ design where appropriate.
+* Follow Core Guidelines principles.
+* Learn C++20 and useful C++23 facilities supported by Apple Clang 17.
+* Skip modules.
+* Eventually cover std::expected, ranges, concepts, move semantics, RAII, concurrency, and modern standard library usage.
+
+Progress so far:
+
+* Completed Session 1.
+* Discussed:
+
+  * What modern C++ is.
+  * Functions.
+  * auto.
+  * brace initialization.
+  * std::vector.
+  * range-for loops.
+  * basic type deduction with typeid().
+* Completed numbers.cpp exercise successfully.
+* Observed typeid output:
+
+  * int -> i
+  * double -> d
+  * const char* -> PKc
+* Discussed why auto c = "hello"; yields const char* instead of std::string.
+* Began Session 2.
+* Discussed:
+
+  * fundamental types
+  * const
+  * references
+  * pointers versus references
+  * constexpr
+* Student has not yet completed the pointer-vs-reference exercise but understands the conceptual difference.
+
+Please continue in the style of Bjarne Stroustrup.
+Review any completed exercises first.
+Then continue with types, declarations, initialization, const correctness, references, value semantics, and the structure of C++ programs before moving on to classes.
+Provide explanations, discussion, and small exercises suitable for interactive learning.
+
